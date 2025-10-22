@@ -1,0 +1,18 @@
+{
+  "name": "ai-proxy",
+  "version": "1.0.0",
+  "description": "在路边收集的一些中转站。不定时检测可访问性，不保证安全和稳定。",
+  "main": "index.js",
+  "scripts": {
+    "build": "node gen.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "tablemark": "^4.1.0"
+  }
+}

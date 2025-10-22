@@ -1,0 +1,222 @@
+{
+  "stations": [
+    {
+      "id": 25,
+      "name": "88code",
+      "url": "https://www.88code.org/register?ref=XNAFCD",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-22 19:10:48",
+      "updated_at": "2025-10-22 19:10:48"
+    },
+    {
+      "id": 24,
+      "name": "nf.video",
+      "url": "https://nf.video/DDyxY",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-22 19:08:29",
+      "updated_at": "2025-10-22 19:08:29"
+    },
+    {
+      "id": 23,
+      "name": "mnapi",
+      "url": "https://www.mnapi.com/register?aff=uwZY",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:47:51",
+      "updated_at": "2025-10-21 13:47:51"
+    },
+    {
+      "id": 22,
+      "name": "siliconflow",
+      "url": "https://cloud.siliconflow.cn/i/91sM1ySA",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:47:04",
+      "updated_at": "2025-10-21 13:47:04"
+    },
+    {
+      "id": 21,
+      "name": "openrouter",
+      "url": "https://openrouter.ai/",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:46:38",
+      "updated_at": "2025-10-21 13:46:38"
+    },
+    {
+      "id": 20,
+      "name": "aiporters",
+      "url": "https://one-api.aiporters.com/register?aff=K0Xr",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:31:40",
+      "updated_at": "2025-10-21 13:31:40"
+    },
+    {
+      "id": 19,
+      "name": "gpt.ge",
+      "url": "https://api.gpt.ge/register?aff=U2pT",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:30:53",
+      "updated_at": "2025-10-21 13:31:20"
+    },
+    {
+      "id": 18,
+      "name": "ygxz",
+      "url": "https://one-api.ygxz.in/register?aff=wAWB",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:30:26",
+      "updated_at": "2025-10-21 13:30:26"
+    },
+    {
+      "id": 17,
+      "name": "xzbzq",
+      "url": "https://chat-api.xzbzq.com/register?aff=rUWR51452",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 13:30:05",
+      "updated_at": "2025-10-21 13:30:05"
+    },
+    {
+      "id": 14,
+      "name": "qzz",
+      "url": "https://b4u.qzz.io/",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-21 10:58:23",
+      "updated_at": "2025-10-21 10:58:32"
+    },
+    {
+      "id": 13,
+      "name": "aioec",
+      "url": "https://api.aioec.tech/register?aff=k1wz",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-21 10:54:59",
+      "updated_at": "2025-10-21 10:54:59"
+    },
+    {
+      "id": 12,
+      "name": "sdnegerioelbima",
+      "url": "https://api.sdnegerioelbima.eu.org/",
+      "description": "linuxdo 2级",
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-21 10:53:56",
+      "updated_at": "2025-10-21 10:53:56"
+    },
+    {
+      "id": 11,
+      "name": "hlwy2025",
+      "url": "https://aiapi.hlwy2025.me/register?aff=RRrE",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-21 10:51:45",
+      "updated_at": "2025-10-21 10:51:45"
+    },
+    {
+      "id": 10,
+      "name": "privnode",
+      "url": "https://privnode.com/register?aff=HBCC",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-21 10:43:59",
+      "updated_at": "2025-10-21 10:43:59"
+    },
+    {
+      "id": 9,
+      "name": "agentrouter",
+      "url": "https://agentrouter.org/register?aff=jkxy",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-21 09:34:04",
+      "updated_at": "2025-10-21 09:34:04"
+    },
+    {
+      "id": 8,
+      "name": "aicodemirror",
+      "url": "https://www.aicodemirror.com/register?invitecode=Q1GDZT",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-20 11:16:46",
+      "updated_at": "2025-10-20 11:17:18"
+    },
+    {
+      "id": 7,
+      "name": "jeniya",
+      "url": "https://jeniya.top/register?aff=QhhP",
+      "description": null,
+      "last_available_time": null,
+      "is_free": false,
+      "created_at": "2025-10-20 11:15:02",
+      "updated_at": "2025-10-20 11:15:02"
+    },
+    {
+      "id": 6,
+      "name": "codemirror",
+      "url": "https://api.codemirror.codes/register?aff=dFmu",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-20 11:14:36",
+      "updated_at": "2025-10-20 11:14:36"
+    },
+    {
+      "id": 5,
+      "name": "freekey",
+      "url": "https://api.freekey.site/register?aff=GvF7",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-20 11:14:04",
+      "updated_at": "2025-10-20 11:14:04"
+    },
+    {
+      "id": 3,
+      "name": "x666",
+      "url": "https://x666.me/register?aff=TX9K",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-20 11:06:10",
+      "updated_at": "2025-10-20 11:06:10"
+    },
+    {
+      "id": 2,
+      "name": "kkyyxx",
+      "url": "https://api.kkyyxx.xyz/register?aff=F773",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "created_at": "2025-10-20 10:57:29",
+      "updated_at": "2025-10-20 11:03:26"
+    }
+  ],
+  "pagination": {
+    "current_page": 1,
+    "page_size": 50,
+    "total_count": 21,
+    "total_pages": 1,
+    "has_next": false,
+    "has_prev": false
+  }
+}
