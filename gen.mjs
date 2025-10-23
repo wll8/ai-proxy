@@ -22,18 +22,30 @@ function readListJson() {
 }
 
 // 生成 Markdown 表格
-function generateMarkdownTable(stations) {
-  // 按 is_free 排序，免费在前
-  const sortedStations = stations.sort((a, b) => {
-    if (a.is_free !== b.is_free) {
-      return a.is_free ? -1 : 1;
+function generateMarkdownTable(stations, isFree = null) {
+  // 如果指定了类型,进行过滤
+  let filteredStations = stations;
+  if (isFree !== null) {
+    filteredStations = stations.filter(station => station.is_free === isFree);
+  }
+
+  // 按 order 排序(order 越小越靠前),然后按创建时间排序(最新的在前)
+  const sortedStations = filteredStations.sort((a, b) => {
+    // 首先按 order 排序
+    const orderA = a.order ?? 999999; // 如果没有 order,则放到最后
+    const orderB = b.order ?? 999999;
+
+    if (orderA !== orderB) {
+      return orderA - orderB;
     }
+
+    // order 相同时,按创建时间排序(最新的在前)
     return new Date(b.created_at) - new Date(a.created_at);
   });
 
   // 准备表格数据
   const tableData = sortedStations.map(station => {
-    // 处理链接，移除 query 参数
+    // 处理链接,移除 query 参数
     const cleanUrl = station.url.split('?')[0];
 
     return {
@@ -53,26 +65,39 @@ function generateMarkdownTable(stations) {
 }
 
 // 替换 README.MD 中的表格内容
-function replaceReadmeContent(markdownTable) {
+function replaceReadmeContent(freeTable, tollTable) {
   try {
     let readmeContent = fs.readFileSync('./README.MD', 'utf8');
 
-    // 查找 LISTSTART 和 LISTEND 之间的内容
-    const startIndex = readmeContent.indexOf('<!-- LISTSTART -->');
-    const endIndex = readmeContent.indexOf('<!-- LISTEND -->');
+    // 替换免费中转站表格
+    const freeStartIndex = readmeContent.indexOf('<!-- LISTFREESTART -->');
+    const freeEndIndex = readmeContent.indexOf('<!-- LISTFREEEND -->');
 
-    if (startIndex === -1 || endIndex === -1) {
-      console.error('README.MD 中未找到 LISTSTART 或 LISTEND 标记');
+    if (freeStartIndex === -1 || freeEndIndex === -1) {
+      console.error('README.MD 中未找到 LISTFREESTART 或 LISTFREEEND 标记');
       process.exit(1);
     }
 
-    // 替换中间的内容
-    const before = readmeContent.substring(0, startIndex + '<!-- LISTSTART -->'.length);
-    const after = readmeContent.substring(endIndex);
+    const beforeFree = readmeContent.substring(0, freeStartIndex + '<!-- LISTFREESTART -->'.length);
+    const afterFree = readmeContent.substring(freeEndIndex);
 
-    const newContent = before + '\n\n' + markdownTable + '\n\n' + after;
+    readmeContent = beforeFree + '\n\n' + freeTable + '\n\n' + afterFree;
 
-    fs.writeFileSync('./README.MD', newContent, 'utf8');
+    // 替换收费中转站表格
+    const tollStartIndex = readmeContent.indexOf('<!-- LISTTOLLSTART -->');
+    const tollEndIndex = readmeContent.indexOf('<!-- LISTTOLLEND -->');
+
+    if (tollStartIndex === -1 || tollEndIndex === -1) {
+      console.error('README.MD 中未找到 LISTTOLLSTART 或 LISTTOLLEND 标记');
+      process.exit(1);
+    }
+
+    const beforeToll = readmeContent.substring(0, tollStartIndex + '<!-- LISTTOLLSTART -->'.length);
+    const afterToll = readmeContent.substring(tollEndIndex);
+
+    readmeContent = beforeToll + '\n\n' + tollTable + '\n\n' + afterToll;
+
+    fs.writeFileSync('./README.MD', readmeContent, 'utf8');
     console.log('✅ README.MD 更新成功');
   } catch (error) {
     console.error('更新 README.MD 失败:', error);
@@ -84,8 +109,9 @@ function replaceReadmeContent(markdownTable) {
 function generateIndexHtml(stations) {
   try {
     // 先更新 README.MD 中的表格内容
-    const markdownTable = generateMarkdownTable(stations);
-    replaceReadmeContent(markdownTable);
+    const freeTable = generateMarkdownTable(stations, true);
+    const tollTable = generateMarkdownTable(stations, false);
+    replaceReadmeContent(freeTable, tollTable);
 
     // 读取完整的 README.MD 并渲染为 HTML
     const readmeContent = fs.readFileSync('./README.MD', 'utf8');
@@ -128,11 +154,12 @@ function main() {
 
   // 生成 Markdown 表格
   console.log('📝 生成 Markdown 表格...');
-  const markdownTable = generateMarkdownTable(stations);
+  const freeTable = generateMarkdownTable(stations, true);
+  const tollTable = generateMarkdownTable(stations, false);
 
   // 更新 README.MD
   console.log('🔄 更新 README.MD...');
-  replaceReadmeContent(markdownTable);
+  replaceReadmeContent(freeTable, tollTable);
 
   // 更新 index.html
   console.log('🌐 更新 index.html...');
