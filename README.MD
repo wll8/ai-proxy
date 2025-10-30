@@ -13,6 +13,7 @@
 | qiniu           | [https://s.qiniu.com/n2y6Ff](https://s.qiniu.com/n2y6Ff)                                | 免费 | 注册送1000万token | -            |
 | agentrouter     | [https://agentrouter.org/register](https://agentrouter.org/register?aff=jkxy)           | 免费 | ok                | -            |
 | codemirror      | [https://api.codemirror.codes/register](https://api.codemirror.codes/register?aff=dFmu) | 免费 | ok                | -            |
+| minimax         | [https://minimax.io/](https://minimax.io/)                                              | 免费 | ok                | -            |
 | aioec           | [https://api.aioec.tech/register](https://api.aioec.tech/register?aff=k1wz)             | 免费 | ok                | -            |
 | x666            | [https://x666.me/register](https://x666.me/register?aff=TX9K)                           | 免费 | ok                | -            |
 | qzz             | [https://b4u.qzz.io/](https://b4u.qzz.io/)                                              | 免费 | -                 | -            |

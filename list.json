@@ -1,6 +1,28 @@
 {
   "stations": [
     {
+      "id": 6,
+      "name": "codemirror",
+      "url": "https://api.codemirror.codes/register?aff=dFmu",
+      "description": "ok",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 0,
+      "created_at": "2025-10-20 11:14:36",
+      "updated_at": "2025-10-23 15:24:01"
+    },
+    {
+      "id": 6,
+      "name": "minimax",
+      "url": "https://minimax.io/",
+      "description": "ok",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 0,
+      "created_at": "2025-10-20 11:14:36",
+      "updated_at": "2025-10-23 15:24:01"
+    },
+    {
       "id": 26,
       "name": "qiniu",
       "url": "https://s.qiniu.com/n2y6Ff",
@@ -21,17 +43,6 @@
       "order": 0,
       "created_at": "2025-10-21 09:34:04",
       "updated_at": "2025-10-23 15:24:04"
-    },
-    {
-      "id": 6,
-      "name": "codemirror",
-      "url": "https://api.codemirror.codes/register?aff=dFmu",
-      "description": "ok",
-      "last_available_time": null,
-      "is_free": true,
-      "order": 0,
-      "created_at": "2025-10-20 11:14:36",
-      "updated_at": "2025-10-23 15:24:01"
     },
     {
       "id": 25,
