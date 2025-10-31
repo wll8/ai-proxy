@@ -1,6 +1,17 @@
 {
   "stations": [
     {
+      "id": 30,
+      "name": "z.ai",
+      "url": "https://www.bigmodel.cn/claude-code?ic=JZBHYLDOTD",
+      "description": "现阶段性价比之王，无限用",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 0,
+      "created_at": "2025-10-31 14:19:51",
+      "updated_at": "2025-10-31 14:23:08"
+    },
+    {
       "id": 6,
       "name": "codemirror",
       "url": "https://api.codemirror.codes/register?aff=dFmu",
@@ -9,95 +20,51 @@
       "is_free": true,
       "order": 0,
       "created_at": "2025-10-20 11:14:36",
-      "updated_at": "2025-10-23 15:24:01"
-    },
-    {
-      "id": 6,
-      "name": "minimax",
-      "url": "https://minimax.io/",
-      "description": "ok",
-      "last_available_time": null,
-      "is_free": true,
-      "order": 0,
-      "created_at": "2025-10-20 11:14:36",
-      "updated_at": "2025-10-23 15:24:01"
-    },
-    {
-      "id": 26,
-      "name": "qiniu",
-      "url": "https://s.qiniu.com/n2y6Ff",
-      "description": "注册送1000万token",
-      "last_available_time": null,
-      "is_free": true,
-      "order": 0,
-      "created_at": "2025-10-23 16:15:26",
-      "updated_at": "2025-10-23 16:15:26"
-    },
-    {
-      "id": 9,
-      "name": "agentrouter",
-      "url": "https://agentrouter.org/register?aff=jkxy",
-      "description": "ok",
-      "last_available_time": null,
-      "is_free": true,
-      "order": 0,
-      "created_at": "2025-10-21 09:34:04",
-      "updated_at": "2025-10-23 15:24:04"
+      "updated_at": "2025-10-31 14:22:09"
     },
     {
       "id": 25,
       "name": "88code",
       "url": "https://www.88code.org/register?ref=XNAFCD",
-      "description": null,
+      "description": "ok",
       "last_available_time": null,
       "is_free": false,
       "order": 0,
       "created_at": "2025-10-22 19:10:48",
-      "updated_at": "2025-10-22 19:10:48"
+      "updated_at": "2025-10-23 18:20:38"
     },
     {
       "id": 24,
       "name": "nf.video",
       "url": "https://nf.video/DDyxY",
-      "description": null,
+      "description": "ok",
       "last_available_time": null,
       "is_free": false,
       "order": 0,
       "created_at": "2025-10-22 19:08:29",
-      "updated_at": "2025-10-22 19:08:29"
-    },
-    {
-      "id": 23,
-      "name": "mnapi",
-      "url": "https://www.mnapi.com/register?aff=uwZY",
-      "description": null,
-      "last_available_time": null,
-      "is_free": false,
-      "order": 0,
-      "created_at": "2025-10-21 13:47:51",
-      "updated_at": "2025-10-21 13:47:51"
+      "updated_at": "2025-10-23 18:20:43"
     },
     {
       "id": 22,
       "name": "siliconflow",
       "url": "https://cloud.siliconflow.cn/i/91sM1ySA",
-      "description": null,
+      "description": "ok",
       "last_available_time": null,
       "is_free": false,
       "order": 0,
       "created_at": "2025-10-21 13:47:04",
-      "updated_at": "2025-10-21 13:47:04"
+      "updated_at": "2025-10-23 18:21:09"
     },
     {
       "id": 21,
       "name": "openrouter",
       "url": "https://openrouter.ai/",
-      "description": null,
+      "description": "ok",
       "last_available_time": null,
       "is_free": false,
       "order": 0,
       "created_at": "2025-10-21 13:46:38",
-      "updated_at": "2025-10-21 13:46:38"
+      "updated_at": "2025-10-23 18:20:56"
     },
     {
       "id": 20,
@@ -166,59 +133,59 @@
       "updated_at": "2025-10-20 11:15:02"
     },
     {
-      "id": 13,
-      "name": "aioec",
-      "url": "https://api.aioec.tech/register?aff=k1wz",
+      "id": 26,
+      "name": "qiniu",
+      "url": "https://s.qiniu.com/n2y6Ff",
+      "description": "注册送1000万token",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 1,
+      "created_at": "2025-10-23 16:15:26",
+      "updated_at": "2025-10-31 14:22:43"
+    },
+    {
+      "id": 9,
+      "name": "agentrouter",
+      "url": "https://agentrouter.org/register?aff=jkxy",
       "description": "ok",
       "last_available_time": null,
       "is_free": true,
       "order": 2,
-      "created_at": "2025-10-21 10:54:59",
-      "updated_at": "2025-10-23 17:54:46"
+      "created_at": "2025-10-21 09:34:04",
+      "updated_at": "2025-10-31 14:24:47"
     },
     {
-      "id": 3,
-      "name": "x666",
-      "url": "https://x666.me/register?aff=TX9K",
-      "description": "ok",
+      "id": 23,
+      "name": "mnapi",
+      "url": "https://www.mnapi.com/register?aff=uwZY",
+      "description": null,
       "last_available_time": null,
-      "is_free": true,
+      "is_free": false,
       "order": 2,
-      "created_at": "2025-10-20 11:06:10",
-      "updated_at": "2025-10-23 17:55:00"
+      "created_at": "2025-10-21 13:47:51",
+      "updated_at": "2025-10-23 18:21:14"
     },
     {
-      "id": 14,
-      "name": "qzz",
-      "url": "https://b4u.qzz.io/",
+      "id": 28,
+      "name": "minimaxi 国内站",
+      "url": "https://www.minimaxi.com/",
       "description": null,
       "last_available_time": null,
       "is_free": true,
       "order": 3,
-      "created_at": "2025-10-21 10:58:23",
-      "updated_at": "2025-10-23 17:55:21"
+      "created_at": "2025-10-31 14:17:58",
+      "updated_at": "2025-10-31 14:24:58"
     },
     {
-      "id": 12,
-      "name": "sdnegerioelbima",
-      "url": "https://api.sdnegerioelbima.eu.org/",
-      "description": "linuxdo 2级",
-      "last_available_time": null,
-      "is_free": true,
-      "order": 3,
-      "created_at": "2025-10-21 10:53:56",
-      "updated_at": "2025-10-23 17:54:42"
-    },
-    {
-      "id": 11,
-      "name": "hlwy2025",
-      "url": "https://aiapi.hlwy2025.me/register?aff=RRrE",
+      "id": 27,
+      "name": "minimax 国际站",
+      "url": "https://minimax.io/",
       "description": null,
       "last_available_time": null,
       "is_free": true,
       "order": 3,
-      "created_at": "2025-10-21 10:51:45",
-      "updated_at": "2025-10-23 17:54:29"
+      "created_at": "2025-10-31 14:17:50",
+      "updated_at": "2025-10-31 14:25:03"
     },
     {
       "id": 5,
@@ -241,12 +208,78 @@
       "order": 3,
       "created_at": "2025-10-20 10:57:29",
       "updated_at": "2025-10-23 17:55:03"
+    },
+    {
+      "id": 29,
+      "name": "wenwen-ai",
+      "url": "https://code.wenwen-ai.com/register?aff=kklc",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-31 14:18:52",
+      "updated_at": "2025-10-31 14:24:21"
+    },
+    {
+      "id": 14,
+      "name": "qzz",
+      "url": "https://b4u.qzz.io/",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-21 10:58:23",
+      "updated_at": "2025-10-31 14:24:32"
+    },
+    {
+      "id": 13,
+      "name": "aioec",
+      "url": "https://api.aioec.tech/register?aff=k1wz",
+      "description": "ok",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-21 10:54:59",
+      "updated_at": "2025-10-31 14:24:12"
+    },
+    {
+      "id": 12,
+      "name": "sdnegerioelbima",
+      "url": "https://api.sdnegerioelbima.eu.org/",
+      "description": "linuxdo 2级",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-21 10:53:56",
+      "updated_at": "2025-10-31 14:24:35"
+    },
+    {
+      "id": 11,
+      "name": "hlwy2025",
+      "url": "https://aiapi.hlwy2025.me/register?aff=RRrE",
+      "description": null,
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-21 10:51:45",
+      "updated_at": "2025-10-31 14:24:39"
+    },
+    {
+      "id": 3,
+      "name": "x666",
+      "url": "https://x666.me/register?aff=TX9K",
+      "description": "ok",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2025-10-20 11:06:10",
+      "updated_at": "2025-10-31 14:24:17"
     }
   ],
   "pagination": {
     "current_page": 1,
     "page_size": 50,
-    "total_count": 21,
+    "total_count": 25,
     "total_pages": 1,
     "has_next": false,
     "has_prev": false
