@@ -17,11 +17,8 @@
 | minimaxi 国内站 | [https://www.minimaxi.com/](https://www.minimaxi.com/)                                   | 免费 | -                        | -            |
 | minimax 国际站  | [https://minimax.io/](https://minimax.io/)                                               | 免费 | -                        | -            |
 | freekey         | [https://api.freekey.site/register](https://api.freekey.site/register?aff=GvF7)          | 免费 | -                        | -            |
-| kkyyxx          | [https://api.kkyyxx.xyz/register](https://api.kkyyxx.xyz/register?aff=F773)              | 免费 | -                        | -            |
 | wenwen-ai       | [https://code.wenwen-ai.com/register](https://code.wenwen-ai.com/register?aff=kklc)      | 免费 | -                        | -            |
 | qzz             | [https://b4u.qzz.io/](https://b4u.qzz.io/)                                               | 免费 | -                        | -            |
-| aioec           | [https://api.aioec.tech/register](https://api.aioec.tech/register?aff=k1wz)              | 免费 | ok                       | -            |
-| sdnegerioelbima | [https://api.sdnegerioelbima.eu.org/](https://api.sdnegerioelbima.eu.org/)               | 免费 | linuxdo 2级              | -            |
 | hlwy2025        | [https://aiapi.hlwy2025.me/register](https://aiapi.hlwy2025.me/register?aff=RRrE)        | 免费 | -                        | -            |
 | x666            | [https://x666.me/register](https://x666.me/register?aff=TX9K)                            | 免费 | ok                       | -            |
 
