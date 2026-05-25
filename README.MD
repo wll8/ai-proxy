@@ -31,19 +31,20 @@
 
 <!-- LISTTOLLSTART -->
 
-| 站点名称    | 链接                                                                                      | 类型 | 备注 | 最后可用时间 |
-| :---------- | :---------------------------------------------------------------------------------------- | :--- | :--- | :----------- |
-| 88code      | [https://www.88code.org/register](https://www.88code.org/register?ref=XNAFCD)             | 收费 | ok   | -            |
-| nf.video    | [https://nf.video/DDyxY](https://nf.video/DDyxY)                                          | 收费 | ok   | -            |
-| siliconflow | [https://cloud.siliconflow.cn/i/91sM1ySA](https://cloud.siliconflow.cn/i/91sM1ySA)        | 收费 | ok   | -            |
-| openrouter  | [https://openrouter.ai/](https://openrouter.ai/)                                          | 收费 | ok   | -            |
-| aiporters   | [https://one-api.aiporters.com/register](https://one-api.aiporters.com/register?aff=K0Xr) | 收费 | -    | -            |
-| gpt.ge      | [https://api.gpt.ge/register](https://api.gpt.ge/register?aff=U2pT)                       | 收费 | -    | -            |
-| ygxz        | [https://one-api.ygxz.in/register](https://one-api.ygxz.in/register?aff=wAWB)             | 收费 | -    | -            |
-| xzbzq       | [https://chat-api.xzbzq.com/register](https://chat-api.xzbzq.com/register?aff=rUWR51452)  | 收费 | -    | -            |
-| privnode    | [https://privnode.com/register](https://privnode.com/register?aff=HBCC)                   | 收费 | -    | -            |
-| jeniya      | [https://jeniya.top/register](https://jeniya.top/register?aff=QhhP)                       | 收费 | -    | -            |
-| mnapi       | [https://www.mnapi.com/register](https://www.mnapi.com/register?aff=uwZY)                 | 收费 | -    | -            |
+| 站点名称    | 链接                                                                                      | 类型 | 备注                                                | 最后可用时间 |
+| :---------- | :---------------------------------------------------------------------------------------- | :--- | :-------------------------------------------------- | :----------- |
+| 88code      | [https://www.88code.org/register](https://www.88code.org/register?ref=XNAFCD)             | 收费 | ok                                                  | -            |
+| nf.video    | [https://nf.video/DDyxY](https://nf.video/DDyxY)                                          | 收费 | ok                                                  | -            |
+| siliconflow | [https://cloud.siliconflow.cn/i/91sM1ySA](https://cloud.siliconflow.cn/i/91sM1ySA)        | 收费 | ok                                                  | -            |
+| openrouter  | [https://openrouter.ai/](https://openrouter.ai/)                                          | 收费 | ok                                                  | -            |
+| aiporters   | [https://one-api.aiporters.com/register](https://one-api.aiporters.com/register?aff=K0Xr) | 收费 | -                                                   | -            |
+| gpt.ge      | [https://api.gpt.ge/register](https://api.gpt.ge/register?aff=U2pT)                       | 收费 | -                                                   | -            |
+| ygxz        | [https://one-api.ygxz.in/register](https://one-api.ygxz.in/register?aff=wAWB)             | 收费 | -                                                   | -            |
+| xzbzq       | [https://chat-api.xzbzq.com/register](https://chat-api.xzbzq.com/register?aff=rUWR51452)  | 收费 | -                                                   | -            |
+| privnode    | [https://privnode.com/register](https://privnode.com/register?aff=HBCC)                   | 收费 | -                                                   | -            |
+| jeniya      | [https://jeniya.top/register](https://jeniya.top/register?aff=QhhP)                       | 收费 | -                                                   | -            |
+| mnapi       | [https://www.mnapi.com/register](https://www.mnapi.com/register?aff=uwZY)                 | 收费 | -                                                   | -            |
+| WanAPIs     | [https://wanapis.com/](https://wanapis.com/)                                              | 收费 | OpenAI兼容，多模型网关，支持Claude Code/Codex/Cline | -            |
 
 
 <!-- LISTTOLLEND -->
