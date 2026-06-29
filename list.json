@@ -241,6 +241,17 @@
       "order": 5,
       "created_at": "2025-10-20 11:06:10",
       "updated_at": "2025-10-31 14:24:17"
+    },
+    {
+      "id": 31,
+      "name": "LLMAPI",
+      "url": "https://llmapi.pro/register",
+      "description": "Claude Code 兼容多模型中转，旗舰真透传、支持 1M 上下文，Anthropic Messages 与 OpenAI 双协议同一把 key，按量+包月，注册送免费额度。",
+      "last_available_time": null,
+      "is_free": false,
+      "order": 0,
+      "created_at": "2026-06-30 00:00:00",
+      "updated_at": "2026-06-30 00:00:00"
     }
   ],
   "pagination": {
