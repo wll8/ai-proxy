@@ -1,6 +1,17 @@
 {
   "stations": [
     {
+      "id": 31,
+      "name": "JiuRelay",
+      "url": "https://jiurelay.com/",
+      "description": "免费 GPT-5.6、Claude、GLM-5.2 API 中转站，无需注册，设备验证即领 1 小时有效 Key",
+      "last_available_time": null,
+      "is_free": true,
+      "order": 5,
+      "created_at": "2026-07-18 17:21:36",
+      "updated_at": "2026-07-18 17:21:36"
+    },
+    {
       "id": 30,
       "name": "z.ai",
       "url": "https://www.bigmodel.cn/claude-code?ic=JZBHYLDOTD",
@@ -246,7 +257,7 @@
   "pagination": {
     "current_page": 1,
     "page_size": 50,
-    "total_count": 25,
+    "total_count": 23,
     "total_pages": 1,
     "has_next": false,
     "has_prev": false
