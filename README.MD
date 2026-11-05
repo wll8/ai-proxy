@@ -44,6 +44,7 @@
 | privnode    | [https://privnode.com/register](https://privnode.com/register?aff=HBCC)                   | 收费 | -    | -            |
 | jeniya      | [https://jeniya.top/register](https://jeniya.top/register?aff=QhhP)                       | 收费 | -    | -            |
 | mnapi       | [https://www.mnapi.com/register](https://www.mnapi.com/register?aff=uwZY)                 | 收费 | -    | -            |
+| 懂AI中转站（DongAI） | [https://api.tongyuye.com/](https://api.tongyuye.com/)                                    | 收费 | 北京同于野科技有限公司运营，面向开发者与团队提供模型 API 接入与使用管理。[产品说明](https://tongyuye.com/products/dongai/) · [接入文档](https://api.tongyuye.com/docs) · [公开模型及售价](https://api.tongyuye.com/models)。按公开售价计费；未在本目录独立测试充值或模型调用。 | -            |
 
 
 <!-- LISTTOLLEND -->
